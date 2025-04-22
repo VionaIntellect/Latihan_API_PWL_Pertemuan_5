@@ -11,7 +11,7 @@ let products = [
     { id: 1, name: "Kopi Tubruk", price: 10000 },
     { id: 2, name: "Teh Manis", price: 8000 }
 ];
-
+// Get Product
 app.get("/products", (req, res) => {
     res.json ({
         status: "success",
